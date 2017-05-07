@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a05c7191-8e62-42de-8dfe-0a6ddbeb61d9" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4000/task2" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="task2.xsd" MetadataType="Schema" ID="2643a83e-b2c0-47d9-9c83-6625e4dd9052" SourceId="1" SourceUrl="http://localhost:4000/task2?xsd=xsd1" />
+    <MetadataFile FileName="task21.xsd" MetadataType="Schema" ID="ad031123-bf90-4291-82b3-ceb79449fde8" SourceId="1" SourceUrl="http://localhost:4000/task2?xsd=xsd2" />
+    <MetadataFile FileName="IssueTracker.wsdl" MetadataType="Wsdl" ID="c04a4ba3-16dd-4904-8fb6-3928afbb49a8" SourceId="1" SourceUrl="http://localhost:4000/task2?wsdl" />
+    <MetadataFile FileName="task2.disco" MetadataType="Disco" ID="4cd296ce-9dbc-4f9c-bbab-beebc89a2a39" SourceId="1" SourceUrl="http://localhost:4000/task2?disco" />
+    <MetadataFile FileName="task22.xsd" MetadataType="Schema" ID="3a8d6471-bd2c-4443-a7d6-f1634ed9a2ba" SourceId="1" SourceUrl="http://localhost:4000/task2?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
